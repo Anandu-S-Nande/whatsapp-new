@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    position: fixed;
+  /*  position: sticky; */
+    box-sizing: content-box;
+    height: 91px;
+    background-color: #128c7e;
+    display: flex;
+    z-index: 10;
+
+}
+.head-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 91%;
+    margin: auto;
+
+}
+.img1{
+    width: 174px;
+    aspect-ratio: auto 50 / 80;
+    height: 42px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    border: 0;
+} 
+.nav a{
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 20px;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;   
+
+}   
+.nav{
+    width: 60%;
+}
+.body{
+    width: 100%;
+    
+}
+.section1{
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    
+}
+.part1{
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    background-color: white;
+    width: 100%;
+    
+    
+}
+.para{
+    margin-left: 35%;
+    height: 402px; 
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    
+}
+.p1{
+    opacity: 0.5;
+}
+h1{
+    font-weight: 100;
+    font-weight: 100;
+}
+h4{
+    color: #1CB39B;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+.part2{
+    width: 100%;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    background-color: white;
+    
+}
+.img2{
+    width: 80%;
+    height: 90%;
+    margin-left: 55px;
+    margin-top: 53px;
+}
+.para1{
+    margin-right: 41%;
+    
+}
+.section2{
+    background-color: #1CB39B;
+    width: 100%;
+    height: 1000px;
+    justify-content: space-between;
+    max-width: 1440px;
+    max-width: 1440px;
+    display: flex;
+    
+
+    
+}
+.part3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: #D8E8EA;
+
+}
+.part4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background-color: blue;
+    
+}
+.img3{
+    width: 100%;
+    height: 100%;
+}
+.para2{
+
+}
+.p2{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.abc{
+    font-size: 34px;
+    line-height: 44px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+.para3{
+     
+}
+.section3{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+.part5 h3{
+    color: rgb(18,141,127);
+    font-size: medium;
+    padding: 100px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    border: 2px solid #77d7c8;
+    border-radius: 40px;
+    padding: 16px 32px;
+
+}
+.part5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: 200px;
+}
+.footer{
+    background-color: rgb(38,52,66) ;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.list{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 500%;
+    margin-left: 70px;
+    margin-right: 10px;
+    padding: 56px 20px;
+    justify-content: center;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+}
+.h4{
+    color: white;
+}
+.section-end{
+    background-color: rgb(28,31,32);
+    width: 100%;
+    height: 71px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    display: block;
+    
+    
+}
+.inner-end{
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    justify-content: space-around;
+    font-size: medium;
+    padding-bottom: 16px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.end{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 100;
+}
+.list li{
+    line-height: 25px;
+}
+.bca{
+    margin-top: 214px;
+}
